@@ -1,3 +1,6 @@
 body{
   background-image: url("ScriptPostum robot dance anim marg.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: green;
 }
