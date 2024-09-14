@@ -1,8 +1,20 @@
+@font-face {
+  font-family: "fixedsys";
+  src: url("./resources/FSEX302.ttf");
+}
+@font-face {
+  font-family: "VT323";
+  src: url("./resources/VT323.ttf");
+}
 body{
-  background-color:gray;
-  background-image: url("ScriptPostum robot dance anim marg.gif");
+  background-color:#08170B;
+  /*background-image: url("ScriptPostum robot dance anim marg.gif");
   background-repeat: no-repeat;
-  background-size: 100vw 100vh;
-  color: green;
+  background-size: 100vw 100vh;*/
+  font-family: VT323;
+  color: #49BB3E;
   size: 100vw 100vh;
+}
+h1 {
+  margin: 0;
 }
