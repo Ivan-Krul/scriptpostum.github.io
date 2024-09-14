@@ -6,15 +6,22 @@
   font-family: "VT323";
   src: url("./resources/VT323.ttf");
 }
+
 body{
-  background-color:#08170B;
+  background-color: #08170B;
   /*background-image: url("ScriptPostum robot dance anim marg.gif");
   background-repeat: no-repeat;
   background-size: 100vw 100vh;*/
   font-family: VT323;
+  font-size: 3ch;
   color: #49BB3E;
   size: 100vw 100vh;
 }
 h1 {
   margin: 0;
+}
+#admin_panel {
+  border: 5px solid #49BB3E;
+  padding: 10px;
+  padding-right: 20px;
 }
