@@ -41,6 +41,8 @@ async function main() {
   await delay(2000);
   document.getElementById("delay_5_admin").style.display = "inherit";
   
+  await delay(1000);
+  document.getElementById("delay_6").style.display = "inherit";
 };
 
 await main();
