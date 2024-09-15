@@ -4,26 +4,29 @@
   </head>
   <body>
     <h1>FETCHING INFORMATION ABOUT <span id="about_who"></span>...</h1>
-    <div>
-      <table>
+    <div id="profile" style="display: none;">
+      <div id="actual_profile" style="display: none; font-size: 2.5ch;" class="borders">
+      <table style="font-size: 2.5ch;">
       <tbody>
         <tr>
-          <td>
-            <div>NAME="<span id="name"></span>"</div>
-            <div>PRONOUNS="<span id="pronouns"></span>"</div>
-            <div>AGE="<span id="age"></span>"</div>
-            <div>LIKES="<span id="likes"></span>"</div>
-            <div>DISLIKES=<span id="dislikes"></span></div>
+          <td style="max-width: 32ch; padding-right: 20px;">
+            <div>NAME: "<span id="name"></span>"</div>
+            <div>PRONOUNS: "<span id="pronouns"></span>"</div>
+            <div>AGE: "<span id="age"></span>"</div>
+            <div>LIKES: [<span id="likes"></span>]</div>
+            <div>DISLIKES: [<span id="dislikes"></span>]</div>
           </td>
-          <td>
-          
+          <td style="text-align:right;">
+            <img id="pfp" style="max-width: 24ch;">
           </td>
-        </tr>
-        <tr>
         </tr>
       </tbody>
       </table>
+      <div>BIO: "<span id="bio"></span>"</div>
+      </div>
+      <div id="error_string" style="color: red;"></div>
     </div>
+    <div><a href="../index.html">GO BACK TO MAIN PAGE</a></div>
     <script type=module src="../js/character.js"></script>
   </body>
 </html>

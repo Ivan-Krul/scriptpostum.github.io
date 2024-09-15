@@ -20,8 +20,10 @@ body{
 h1 {
   margin: 0;
 }
-#admin_panel {
+.borders {
   border: 5px solid #49BB3E;
   padding: 10px;
+}
+#admin_panel {
   padding-right: 20px;
 }

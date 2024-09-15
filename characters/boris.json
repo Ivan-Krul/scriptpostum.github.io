@@ -1,0 +1,8 @@
+{
+  "NAME": "Boris",
+  "PRONOUNS": "He/Him",
+  "AGE": 6,
+  "LIKES": ["Tinkering", "Headpats", "Danger"],
+  "DISLIKES": ["Closed spaces"],
+  "PFP_PATH": "images/pfps/boris.webp"
+}
