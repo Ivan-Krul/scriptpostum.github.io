@@ -33,9 +33,9 @@ a:visited{
 a:link{
 	color:#00ff00;
 }
-.hidden {
-  color:#0B1A0E !important;
+.half {
+  color:#286924 !important;
 }
-.hidden * {
-  color:#0B1A0E !important;
+.half * {
+  color:#048B06 !important;
 }
