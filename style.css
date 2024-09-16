@@ -39,3 +39,9 @@ a:link{
 .half * {
   color:#048B06 !important;
 }
+img {
+  image-rendering: crisp-edges;
+}
+#socials a img {
+  max-width: 10%;
+}
