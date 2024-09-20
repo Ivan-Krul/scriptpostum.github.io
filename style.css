@@ -45,3 +45,9 @@ img {
 .social_img {
   width:9ch;
 }
+.hide {
+  display: none;
+}
+.fan_art {
+  max-width: 20vw;
+}
