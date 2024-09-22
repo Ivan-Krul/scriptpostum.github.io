@@ -1,4 +1,4 @@
-import { delay } from "./delay.js";
+import * as delayer from "./delay.js";
 
 // don't touch >:3
 async function fetchFile(filePath) {
@@ -18,15 +18,17 @@ async function loadFanartsSequentially() {
       document.getElementById("fan_arts").innerHTML += `${list[i + 1] !== '\r' ? `<a href="${list[i + 1]}">` : '' }<img src="../images/fanarts/${list[i]}" class="fan_art borders">${list[i + 1] !== '\r' ? `</a>` : '' }`;
     }
     else if(list[i][1] !== '#') i--;
-    await delay(250);
+    await delayer.delay(250);
   }
 }
 
 async function main() {
-  await delay(2000);
+  await delayer.delay(2000);
   document.getElementById("fan_art_container").style.display = "inherit";
 
   await loadFanartsSequentially();
 };
 
+delayer.startSound();
 await main();
+await delayer.stopSound();

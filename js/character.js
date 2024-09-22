@@ -1,4 +1,4 @@
-import { delay } from "./delay.js";
+import * as delayer from "./delay.js";
 
 // don't touch >:3
 async function fetchFile(filePath) {
@@ -13,7 +13,7 @@ async function main() {
   let oc = getURLParams().get("oc");
   document.getElementById("about_who").innerText = oc.toUpperCase();
   
-  await delay(2000);
+  await delayer.delay(2000);
   
   document.getElementById("profile").style.display = "inherit";
   
@@ -50,7 +50,8 @@ async function main() {
   const new_bio = bio.replaceAll("\n", " ").replaceAll("\r", "").replaceAll("\\n", "\n");
   
   document.getElementById("bio").innerText = is_invalid ? "NULL" : new_bio;
-  
 }
 
+delayer.startSound();
 await main();
+await delayer.stopSound();

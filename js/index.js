@@ -1,4 +1,4 @@
-import { delay } from "./delay.js";
+import * as delayer from "./delay.js";
 
 // don't touch >:3
 async function fetchFile(filePath) {
@@ -19,31 +19,34 @@ async function loadOCLinks() {
 }
 
 async function main() {
-  await delay(100);
+
+  await delayer.delay(100);
   document.getElementById("delay_0").style.display = "inherit";
   
-  await delay(1000);
+  await delayer.delay(1000);
   document.getElementById("delay_1").style.display = "inherit";
   
-  await delay(2000);
+  await delayer.delay(2000);
   document.getElementById("delay_2").style.display = "inherit";
   
-  await delay(100);
+  await delayer.delay(100);
   document.getElementById("delay_3_middle").style.display = "inherit";
   
   await loadOCLinks();
   
-  await delay(100);
+  await delayer.delay(100);
   document.getElementById("delay_4").style.display = "inherit";
   
-  await delay(2000);
+  await delayer.delay(2000);
   document.getElementById("delay_5_admin").style.display = "inherit";
   
-  await delay(50);
+  await delayer.delay(50);
   document.getElementById("delay_6_socials").style.display = "inherit";
   
-  await delay(1000);
+  await delayer.delay(1000);
   document.getElementById("delay_7").style.display = "inherit";
 };
 
+delayer.startSound();
 await main();
+await delayer.stopSound();
