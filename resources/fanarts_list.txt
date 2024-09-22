@@ -1,6 +1,63 @@
-Boris by @ScriptPostum get hugged.png
+#
+#                fanarts_list.txt
+#   Here you can put all your fan-arts here!
+#       Hash at the beginning of the line responses
+#         as comment section, which is ignored.
+#    First line represents path to the art,
+#  The second line represents the link to it's artists.
+#   These 2 lines has not to be detached between
+#                  comment section.
+#
+# Kiwii Devulopir
+#
+kiwii-devulopir/Boris by @ScriptPostum get hugged.png
 https://bsky.app/profile/kiwii-devulopir.bsky.social
-ScriptPostum robot dance anim merg.gif
+kiwii-devulopir/ScriptPostum robot dance anim merg.gif
 https://bsky.app/profile/kiwii-devulopir.bsky.social
-ScriptPostum raffle art.png
+kiwii-devulopir/ScriptPostum raffle art.png
 https://bsky.app/profile/kiwii-devulopir.bsky.social
+#
+# Cat Droplet
+#
+@cat_droplet/@cat_droplet(2).jpg
+https://bsky.app/profile/catdroplet.bsky.social
+@cat_droplet/GUTdFPOXUAAOHhO.png
+https://bsky.app/profile/catdroplet.bsky.social
+@cat_droplet/GWPr6gxWEAAwO4T.jpeg
+https://bsky.app/profile/catdroplet.bsky.social
+@cat_droplet/image1.png
+https://bsky.app/profile/catdroplet.bsky.social
+@cat_droplet/Space_robot.png
+https://bsky.app/profile/catdroplet.bsky.social
+@cat_droplet/The_robots_night_sky.png
+https://bsky.app/profile/catdroplet.bsky.social
+#
+# spill_y0ur_guts
+#
+@spill_y0ur_guts/@spill_y0ur_guts(1).jpg
+
+@spill_y0ur_guts/@spill_y0ur_guts(2).jpg
+
+@spill_y0ur_guts/@spill_y0ur_guts(2)WIP.jpg
+
+@spill_y0ur_guts/@spill_y0ur_guts.jpeg
+
+#
+# Honorable mention
+#
+@BDSomewhat.jpg
+https://twitter.com/BDSomewhat
+@CoreSux.jpeg
+https://twitter.com/CoreSux
+@deviverrr.png
+https://twitter.com/deviverrr
+@Peetorlol.jpg
+https://twitter.com/Peetorlol
+@pixel_downward (+@cat_droplet).jpeg
+https://twitter.com/pixel_downward
+@rody_marshall.jpg
+https://twitter.com/rody_marshall
+@The_Joezers.jpeg
+https://twitter.com/The_Joezers
+@Thing_92.jpeg
+https://twitter.com/Thing_92

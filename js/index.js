@@ -1,3 +1,4 @@
+import { delay } from "./delay.js";
 
 // don't touch >:3
 async function fetchFile(filePath) {
@@ -8,9 +9,6 @@ async function fetchFile(filePath) {
       throw '*Error fetching ' + filePath + ':', error;
     });
 }
-
-// it's a function too
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 async function loadOCLinks() {
   let list = (await fetchFile("characters/list.txt")).split('\n');

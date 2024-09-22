@@ -1,3 +1,4 @@
+import { delay } from "./delay.js";
 
 // don't touch >:3
 async function fetchFile(filePath) {
@@ -7,9 +8,6 @@ async function fetchFile(filePath) {
 function getURLParams() {
   return new URLSearchParams(window.location.search);
 }
-
-// it's a function too
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 async function main() {
   let oc = getURLParams().get("oc");

@@ -1,3 +1,4 @@
+import { delay } from "./delay.js";
 
 // don't touch >:3
 async function fetchFile(filePath) {
@@ -9,14 +10,14 @@ async function fetchFile(filePath) {
     });
 }
 
-// it's a function too
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-
 async function loadFanartsSequentially() {
   let list = (await fetchFile("resources/fanarts_list.txt")).split('\n');
   
   for(let i = 0; i < list.length; i+= 2) {
-    document.getElementById("fan_arts").innerHTML += `<a href="${list[i + 1]}"><img src="../images/fanarts/${list[i]}" class="fan_art borders"></a>`;
+    if(list[i][0] !== '#') {
+      document.getElementById("fan_arts").innerHTML += `${list[i + 1] !== '\r' ? `<a href="${list[i + 1]}">` : '' }<img src="../images/fanarts/${list[i]}" class="fan_art borders">${list[i + 1] !== '\r' ? `</a>` : '' }`;
+    }
+    else if(list[i][1] !== '#') i--;
     await delay(250);
   }
 }
