@@ -9,9 +9,11 @@
 
 body{
   background-color: #08170B;
-  /*background-image: url("ScriptPostum robot dance anim marg.gif");
+  /*
   background-repeat: no-repeat;
   background-size: 100vw 100vh;*/
+  background-image: url("./images/bg.png");
+  background-attachment: fixed;
   font-family: VT323;
   font-size: 3ch;
   color: #49BB3E;
