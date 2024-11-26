@@ -53,3 +53,6 @@ img {
 .fan_art {
   max-width: 15vw;
 }
+.small_frame {
+  border: 1px solid #49BB3E
+}
