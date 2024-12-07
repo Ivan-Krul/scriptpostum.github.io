@@ -1,8 +1,13 @@
 {
+  "REF_VERSION": 2,
   "NAME": "Carlo Ponti",
+  "SPECIES": "Fennec Fox",
   "PRONOUNS": "He/Him",
   "AGE": 19,
+  "SEXUALITY": "Bisexual male",
+  "WORK": "Foreign exchange student",
   "LIKES": ["His new body", "Videogames", "Being helpful"],
   "DISLIKES": ["Crowds", "Being ignored"],
-  "PFP_PATH": "images/pfps/carlo.png"
+  "PFP_PATH": "images/pfps/carlo.png",
+  "NOTES": "Ear fluffs are soft like marshmallows. Author's main sona"
 }
