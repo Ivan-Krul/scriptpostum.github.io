@@ -10,6 +10,8 @@
 #
 # Kiwii Devulopir
 #
+kiwii-devulopir/Boris holds hot chocolate eye flipped.png
+https://bsky.app/profile/kiwii-devulopir.bsky.social
 kiwii-devulopir/Boris jumps far.png
 https://bsky.app/profile/kiwii-devulopir.bsky.social
 kiwii-devulopir/Boris by @ScriptPostum get hugged.png
@@ -47,6 +49,10 @@ https://bsky.app/profile/catdroplet.bsky.social
 #
 # Honorable mention
 #
+@frazytheboi.jpg
+https://bsky.app/profile/frazytheboi.bsky.social
+@s_4kagi.png
+https://twitter.com/s_4kag1
 @BDSomewhat.jpg
 https://twitter.com/BDSomewhat
 @CoreSux.jpeg
